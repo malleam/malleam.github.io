@@ -7,12 +7,18 @@
     <link rel="icon" href="https://fav.farm/🔥" />
     <style>
         th, td, div, iframe, {
-            padding: 3px;
-            font-size:large;
+            padding: 8px;
+            font-size: large;
             font: weight 400;
+            color: white;
+            text-align:right;
         }
         body {
-            background-color: transparent;
+            background-color: black;
+            color:white;
+            font-size:large;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:right;
         }
     </style>
   </head>
@@ -24,10 +30,11 @@
 
 </script>
   <div id="hide" width="100%" height="100%">
-    <table>
+    <p id="p">404</p>
+    <table align="right">
       <tr><td>
             <p>
-              <label for="login"><center>login:</center></label>
+              <label for="login"></align>login:</label>
             </td>
           <td>
             <input type="text" id="login" name="login" placeholder="Jesus FaceFucking Christ">
@@ -39,8 +46,13 @@
         <td>
           <input type="password" id="pass" name="pass" placeholder="*******">
           </td></p>
-        <tr><td></td><td><p><button type="button">login</button>
-            &nbsp; <button type="button">reset</button></p></td></tr>
+        <tr><td></td><td><p>
+            <button id="login" type="button" onclick=tryAgain()>login</button>
+            &nbsp; 
+            <button id="reset" type="button" onclick=tryAgain()>reset</button>
+     
+        </p></td></tr>
+           
     </table>
   </div>
 </body>

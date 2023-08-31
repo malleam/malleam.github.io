@@ -39,6 +39,14 @@ document.addEventListener('keydown', function(e) {
 
 const pressed = [];
 
+function tryAgain() {
+
+
+  var paragraph = document.getElementById("p");
+
+  alert(" error. try again later.");};
+
+paragraph.appendChild(text);
 function activateCheats() {
 document.body.style.backgroundImage = "url('https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/370539027_10161011701759390_1851754097289374655_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=49d041&_nc_ohc=2qqaKyLQ2OIAX9Q5k8D&_nc_ht=scontent-ord5-1.xx&oh=00_AfD6yOiyTW-jKxEKHNYdUdQgmB0uMaY6ZwhB-8aeA51OiA&oe=64F4531D')";
   
@@ -56,3 +64,18 @@ window.addEventListener("keyup", (e) => {
        
         console.log(pressed);
 });
+let clickCount = 0;
+
+function handleButtonClick() {
+    clickCount++;
+
+    if (clickCount === 2) {
+        location.reload();
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const reloadButton = document.getElementById('reloadButton');
+    reloadButton.addEventListener('click', handleButtonClick);
+});
+    
