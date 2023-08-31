@@ -8,7 +8,7 @@
   </head>
   <body>
    
-    <div id="hidden" width="100%" height="100%"></div>
+    <div id="hidden" width="600px" height="600px"></div>
     <script>
 
 // a key map of allowed keys
@@ -61,10 +61,27 @@ document.body.style.backgroundImage = "url('https://scontent-ord5-1.xx.fbcdn.net
 function addCode() {
             document.getElementById("hidden")
                 .innerHTML +=
-"<iframe width='100%' height='100%' src='../hidden.html'></iframe>";
-        };
+"<iframe width='100%' height='100%' src='https://github.com/malleam/js-testing/blob/main/hidden.html'></iframe>";
+document.getElementById("des").style.visibility = "hidden";
+     
+};
 
 </script>
-<div id="hidden" width="100%"" height="100%"><p>nothing to see here</p>
-  </div></body>
+  <div id="des" width="50%" height="50%">
+    <table padding="5px">
+      <tr><td>
+            <p>
+              <label for="login"><center>login:</center></label>
+            </td>
+          <td>
+            <input type="text" id="login" name="login" placeholder="Jesus FaceFucking Christ">
+            </td></p></tr>
+      <tr><td>
+          <p>
+            <label for="pass"><center>password:</center></label>
+          </td>
+        <td>
+          <input type="password" id="pass" name="pass" placeholder="*******">
+          </td></p></tr>
+    </table></div></body>
 </html>
