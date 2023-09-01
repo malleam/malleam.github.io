@@ -44,45 +44,7 @@ function tryAgain() {
 };
 
 function addCat() { 
-  var img = document.createElement("img");
-  img.src = "01.jpg"; 
-  img.width= '600';
-  document.body.appendChild(img);
-
-  var img2 = document.createElement("img");
-  img2.src = "02.jpg"; 
-  img2.width = 600;
-  document.body.appendChild(img2);
-
-  var img3 = document.createElement("img");
-  img3.src = "03.jpg"; 
-  img3.width = 600;
-  document.body.appendChild(img3);
-
-  var img4 = document.createElement("img");
-  img4.src = "04.jpg"; 
-  img4.width = 600;
-  document.body.appendChild(img4);
-
-  var img5 = document.createElement("img");
-  img5.src = "05.jpg"; 
-  img5.width = 600;
-  document.body.appendChild(img5);
-
-  var img6 = document.createElement("img");
-  img6.src = "06.jpg"; 
-  img6.width = 600;
-  document.body.appendChild(img6);
-
-  var img7 = document.createElement("img");
-  img7.src = "07.jpg"; 
-  img7.width = 600;
-  document.body.appendChild(img7);
-
-  var img8 = document.createElement("img");
-  img8.src = "08.jpg"; 
-  img8.width = 600;
-  document.body.appendChild(img8);
+  document.getElementById('cat').innerHTML = '<img width="600" src="01.jpg"><br><img width="600" src="02.jpg"><br><img width="600" src="03.jpg"><br><img width="600" src="04.jpg"><br><img width="600" src="05.jpg"><br><img width="600" src="06.jpg"><br><img width="600" src="07.jpg"><br><img width="600" src="08.jpg"><br>';
 
 }
 

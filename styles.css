@@ -13,6 +13,7 @@ th, td, div, iframe, {
             text-align:center;
             align-items: center;
             margin: auto;
+            vertical-align: middle;
         }
         input[type=text],input[type=password]{
         width: 12em;
@@ -34,6 +35,7 @@ th, td, div, iframe, {
         .container {
             width:200px;
             visibility:inherit ;
+            
 
         }
         .valid{
@@ -65,26 +67,32 @@ th, td, div, iframe, {
         border: 1px solid #280d00;
         }
         .cat{
-            display: flex;
+            display: inline;
             width:80%;
+            align-content: center;
+            vertical-align: middle;
         }
         .hidden{
             position: relative;
-            display: inline;
+            display: block;
             overflow: hidden;
             margin: 0;
             text-align: center;
-            align-items: center;
+            align-items: center;   
+            vertical-align: middle;
           }
 
         .hide{
             position: relative;
-            display: inline;
+            display: grid;
             overflow: visible;
-            margin: 0;
             text-align: right;
+            margin-right: 50px;
+            vertical-align: middle;
+         
           }
       
+.notblock{display:inline-block}
         
 
         
