@@ -28,7 +28,6 @@ document.addEventListener('keydown', function(e) {
     // if the last key is reached, activate cheats
     if (konamiCodePosition == konamiCode.length) {
       activateCheats();
-      addCode();
       konamiCodePosition = 0;
       
     }
@@ -42,18 +41,63 @@ const pressed = [];
 function tryAgain() {
   var paragraph = document.getElementById("p");
   alert(" error. ckeck your login info and/or try again later.");
+};
+
+function addCat() { 
+  var img = document.createElement("img");
+  img.src = "01.jpg"; 
+  img.width = 600;
+  document.body.appendChild(img);
+
+  var img2 = document.createElement("img");
+  img2.src = "02.jpg"; 
+  img2.width = 600;
+  document.body.appendChild(img2);
+
+  var img3 = document.createElement("img");
+  img3.src = "03.jpg"; 
+  img3.width = 600;
+  document.body.appendChild(img3);
+
+  var img4 = document.createElement("img");
+  img4.src = "04.jpg"; 
+  img4.width = 600;
+  document.body.appendChild(img4);
+
+  var img5 = document.createElement("img");
+  img5.src = "05.jpg"; 
+  img5.width = 600;
+  document.body.appendChild(img5);
+
+  var img6 = document.createElement("img");
+  img6.src = "06.jpg"; 
+  img6.width = 600;
+  document.body.appendChild(img6);
+
+  var img7 = document.createElement("img");
+  img7.src = "07.jpg"; 
+  img7.width = 600;
+  document.body.appendChild(img7);
+
+  var img8 = document.createElement("img");
+  img8.src = "08.jpg"; 
+  img8.width = 600;
+  document.body.appendChild(img8);
+
 }
 
 function activateCheats() {
-document.body.style.backgroundImage = "url('https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/370539027_10161011701759390_1851754097289374655_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=49d041&_nc_ohc=2qqaKyLQ2OIAX9Q5k8D&_nc_ht=scontent-ord5-1.xx&oh=00_AfD6yOiyTW-jKxEKHNYdUdQgmB0uMaY6ZwhB-8aeA51OiA&oe=64F4531D')";
-  
+  addFrame();
 };
-function addCode() {
+
+function addFrame() {
+            
             document.getElementById("hidden")
                 .innerHTML +=
-'<iframe style="background: #000000; background-color: black" width="300px" height="200px" src="hidden.html"></iframe>';
+'<iframe style="background: #000000; background-color: black" width="300px" height="128px" src="hidden.html"></iframe>';
 document.getElementById("hide").style.visibility = "hidden";
-     
+document.getElementById("hide").style.display = "none";
+            addCat();
 };
 window.addEventListener("keydown", (e) => {
         console.log(e.key);
@@ -61,7 +105,6 @@ window.addEventListener("keydown", (e) => {
        
         console.log(pressed);
 });
-document.getElementById("login").value;
 
 //login
 function validate(){
@@ -69,7 +112,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "fuckface" && password == "weed420"){
   
-    window.location = "hidden.html"; // Redirecting to other page.
+    window.location = "success.html"; // Redirecting to other page.
     return false;
   }
 else{

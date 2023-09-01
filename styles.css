@@ -1,16 +1,18 @@
 th, td, div, iframe, {
-            padding: 8px;
+            padding: 2px;
             font-size: large;
             font: weight 400;
             color: white;
-            text-align:right;
+            text-align:center;
         }
         body {
             background-color: black;
             color:rgb(255, 255, 255);
             font-size:large;
             font-family:Arial, Helvetica, sans-serif;
-            text-align:right;
+            text-align:center;
+            align-items: center;
+            margin: auto;
         }
         input[type=text],input[type=password]{
         width: 12em;
@@ -28,6 +30,11 @@ th, td, div, iframe, {
         text-shadow: 0 2px 0 #071d3a;
         font-size: 20px;
         font-weight: bold;
+        }
+        .container {
+            width:200px;
+            visibility:inherit ;
+
         }
         .valid{
         color:rgb(0, 183, 137);
@@ -51,12 +58,34 @@ th, td, div, iframe, {
         border-radius: 5px;
         padding: 10px 0;
         outline:none;
+        
         }
         input[type=button]:hover{
         background: linear-gradient(#e96d00 5%, #712200 100%);
         border: 1px solid #280d00;
         }
-
-        .hidden{
-            
+        .cat{
+            width: 600px;
+            height: 400px;
+            display: flex;
         }
+        .hidden{
+            position: relative;
+            display: inline;
+            overflow: hidden;
+            margin: 0;
+            text-align: center;
+            align-items: center;
+          }
+
+        .hide{
+            position: relative;
+            display: inline;
+            overflow: visible;
+            margin: 0;
+            text-align: right;
+          }
+      
+        
+
+        
