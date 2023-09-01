@@ -1,3 +1,7 @@
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
 th, td, div, iframe, {
             padding: 2px;
             font-size: large;
@@ -100,8 +104,7 @@ th, td, div, iframe, {
             vertical-align: middle;
          
           }
-      
-.notblock{display:inline-block}
+
         
 
         
