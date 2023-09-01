@@ -65,9 +65,8 @@ th, td, div, iframe, {
         border: 1px solid #280d00;
         }
         .cat{
-            width: 600px;
-            height: 400px;
             display: flex;
+            width:80%;
         }
         .hidden{
             position: relative;

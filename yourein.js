@@ -46,7 +46,7 @@ function tryAgain() {
 function addCat() { 
   var img = document.createElement("img");
   img.src = "01.jpg"; 
-  img.width = 600;
+  img.width= '600';
   document.body.appendChild(img);
 
   var img2 = document.createElement("img");
