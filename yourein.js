@@ -40,13 +40,10 @@ document.addEventListener('keydown', function(e) {
 const pressed = [];
 
 function tryAgain() {
-
-
   var paragraph = document.getElementById("p");
+  alert(" error. ckeck your login info and/or try again later.");
+}
 
-  alert(" error. try again later.");};
-
-paragraph.appendChild(text);
 function activateCheats() {
 document.body.style.backgroundImage = "url('https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/370539027_10161011701759390_1851754097289374655_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=49d041&_nc_ohc=2qqaKyLQ2OIAX9Q5k8D&_nc_ht=scontent-ord5-1.xx&oh=00_AfD6yOiyTW-jKxEKHNYdUdQgmB0uMaY6ZwhB-8aeA51OiA&oe=64F4531D')";
   
@@ -54,28 +51,31 @@ document.body.style.backgroundImage = "url('https://scontent-ord5-1.xx.fbcdn.net
 function addCode() {
             document.getElementById("hidden")
                 .innerHTML +=
-"<iframe style='background: #000000; background-color: black' width='300px' height='200px' src='hidden.html'></iframe>";
+'<iframe style="background: #000000; background-color: black" width="300px" height="200px" src="hidden.html"></iframe>';
 document.getElementById("hide").style.visibility = "hidden";
      
 };
-window.addEventListener("keyup", (e) => {
+window.addEventListener("keydown", (e) => {
         console.log(e.key);
         pressed.push(e.key);
        
         console.log(pressed);
 });
-let clickCount = 0;
+document.getElementById("login").value;
 
-function handleButtonClick() {
-    clickCount++;
-
-    if (clickCount === 2) {
-        location.reload();
-    }
+//login
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "fuckface" && password == "weed420"){
+  
+    window.location = "hidden.html"; // Redirecting to other page.
+    return false;
+  }
+else{
+tryAgain();
+return false;
+}
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const reloadButton = document.getElementById('reloadButton');
-    reloadButton.addEventListener('click', handleButtonClick);
-});
-    
+
