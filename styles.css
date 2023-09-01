@@ -104,7 +104,74 @@ th, td, div, iframe, {
             vertical-align: middle;
          
           }
+   
+          #menu {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+        }
+        #menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        #menu ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        #menu ul li:last-child {
+            margin-right: 0;
+        }
+        #menu ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        #menu a:hover {
+            text-decoration: wavy;
+            color:#009572;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        #blog-container {
+            border-width: 1px;
+            color: white;
+            background-color: black;
+            text-align: left;
+            padding-left: 6%;
+            padding-top: .2%;
+            margin-left: 2px;
+            margin-right: 2px;;
+            margin-top: 2%;
+            margin-bottom: 6%;
+            padding-bottom: 2px;
+            padding-right: 2px;
+        }
+        #blog-container-nested {
+            border: none;
+            border-style: none;
+            color: white;
+            background-color: black;
+            text-align: left;
+            padding-left: .2%;
+            padding-top: .2%;
+            margin-top: 2%;
+            margin-bottom: .6%;
+            padding-bottom: 2px;
+        }
+        data-title {
+            font-size: 42px;
+            text-align: left;
+            color: #939393;
+        }
+        data-subtext {
+            color: #b6b6b5;
+            display: block;
+            font-size: 22px;
+            
 
-        
+        }
+        data-content {
+            font-size: 12px;
+
+        }
 
         
