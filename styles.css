@@ -6,13 +6,11 @@
             border: white;
             border-width: 1px;
             font-size: 18px;
-            font: weight 400;
             color: white;
             text-align:center;
             vertical-align: middle;
             background: #000000; 
             background-color: black; 
-            width: 100%;
            
         }
         html, body {
@@ -24,7 +22,7 @@
             align-items: center;
             margin: auto;
             vertical-align: middle;
-            padding: 10px;
+            padding: 10px 10px;
         }
         .bodycontent {
             background-color: black;
@@ -277,5 +275,5 @@ img {
     font-weight: lighter;
 }
 .facebook {
-    padding-block: 60px;
+    height: auto;
 }
