@@ -44,7 +44,7 @@ function tryAgain() {
 };
 
 function addCat() { 
-  document.getElementById('cat').innerHTML = '<img width="600" src="/images/01.jpg"><br><img width="600" src="/images/02.jpg"><br><img width="600" src="/images/03.jpg"><br><img width="600" src="/images/04.jpg"><br><img width="600" src="/images/05.jpg"><br><img width="600" src="/images/06.jpg"><br><img width="600" src="/images/07.jpg"><br><img width="600" src="/images/08.jpg"><br>';
+  document.getElementById('cat').innerHTML = '<img src="/images/01.jpg"><br><br><img src="/images/02.jpg"><br><br><img src="/images/03.jpg"><br><br><img src="/images/04.jpg"><br><br><img src="/images/05.jpg"><br><br><img src="/images/06.jpg"><br><br><img src="/images/07.jpg"><br><br><img src="/images/08.jpg"><br><br>';
 
 }
 

@@ -12,7 +12,7 @@
             vertical-align: middle;
             background: #000000; 
             background-color: black; 
-            min-width: 500px; 
+            width: 100%;
            
         }
         html, body {
@@ -24,7 +24,7 @@
             align-items: center;
             margin: auto;
             vertical-align: middle;
-            padding:10px;
+            padding: 10px;
         }
         .bodycontent {
             background-color: black;
@@ -99,12 +99,11 @@
 
         .cat{
             display: inline;
-            margin: 10px;
-            padding-block: 60px;
-            width: 70%;
+            width: 200px;
             height: auto;
             align-content: center;
             vertical-align: middle;
+            box-sizing: border-box;
 
     
         }
@@ -122,7 +121,7 @@
             display: inline;
             overflow: visible;
             padding-top: 50px;
-            width: 70%;
+            width: 90%;
             height: auto;
             text-align: right;
             margin-right: 50px;
@@ -141,7 +140,7 @@
         }
         #menu ul li {
             display: inline;
-            margin-right: 20px;
+            margin-right: 8px;
         }
         #menu ul li:last-child {
             margin-right: 0;
@@ -265,7 +264,7 @@
     margin-left: 5px; /* Adjust the spacing between text and emoji */
 }
 img {
-    width: 100%;
+    width: 70%;
     height: auto;
   }
 
