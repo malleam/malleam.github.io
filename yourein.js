@@ -56,7 +56,7 @@ function addFrame() {
             
             document.getElementById("hidden")
                 .innerHTML +=
-'<iframe style="background: #000000; background-color: black" width="600px" height="130px" src="hidden.html"><br></iframe>';
+'<iframe style="background: #000000; background-color: black" width="600px" height="150px" src="hidden.html"><br></iframe>';
 document.getElementById("hide").style.visibility = "hidden";
 document.getElementById("hide").style.display = "none";
             addCat();
