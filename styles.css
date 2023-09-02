@@ -217,10 +217,15 @@
     text-align: center;
     font-size: 18px;
     padding-bottom: 20%;
-    
         }
 .donate span:hover {
     font-size: 22px; /* Increase the font size on hover within span tags */
+    color:#009572;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+.donate span:active {
+    font-size: 22px; /* Increase the font size on active within span tags */
     color:#009572;
         font-weight: 700;
         text-transform: uppercase;
