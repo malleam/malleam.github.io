@@ -228,7 +228,7 @@
     padding-bottom: 20%;
         }
 .donate span:hover {
-    font-size: 22px; /* Increase the font size on hover within span tags */
+    font-size: 36px; /* Increase the font size on hover within span tags */
     color:#009572;
         font-weight: 700;
         text-transform: uppercase;
@@ -240,7 +240,6 @@
         text-transform: uppercase;
 }
 .clicktocopy {
-    padding: 35px;
     font-size: 10px;
 }
 /* styles.css */
