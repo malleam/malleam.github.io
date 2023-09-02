@@ -249,5 +249,8 @@
     opacity: 1;
     margin-left: 5px; /* Adjust the spacing between text and emoji */
 }
-
+img {
+    width: 100%;
+    height: auto;
+  }
 
