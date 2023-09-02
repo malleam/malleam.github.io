@@ -255,7 +255,7 @@
 
 .text-container:hover .cat-emoji {
     opacity: 1;
-    margin-left: 5px; /* Adjust the spacing between text and emoji */
+    margin-left: 0px; /* Adjust the spacing between text and emoji */
 }
 img {
     width: 70%;
