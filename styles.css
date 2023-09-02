@@ -2,12 +2,13 @@
     body {
       font-size: 14px;
     }}
-th, div, iframe {
+        iframe {
             padding: 2px;
             font-size: 18px;
             font: weight 400;
             color: white;
             text-align:center;
+            vertical-align: middle;
         }
         html, body {
             background-color: black;
@@ -210,3 +211,11 @@ th, div, iframe {
     background-position-x: 500%;
   }
 }
+.donate {
+    vertical-align: middle;
+    padding-left: 30%;
+    text-align: left;
+    font-size: 18px;
+    text-decoration: line-through;
+    padding-left: "10%";
+        }
