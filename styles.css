@@ -4,7 +4,7 @@
     }}
 th, div, iframe {
             padding: 2px;
-            font-size: large;
+            font-size: 18px;
             font: weight 400;
             color: white;
             text-align:center;
@@ -118,7 +118,7 @@ th, div, iframe {
             background-color: #000000;
             color: #fff;
             padding: 10px;
-        }
+          }
         #menu ul {
             list-style: none;
             padding: 0;
@@ -201,20 +201,7 @@ th, div, iframe {
             position: relative;
             margin-top: 0;
 }
-        .fuxyeah {
-            text-align: left;
-            display: inline-flex;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 100;
-            font-style: italic;
-        }
-        .hide {background-color: black;}
-        .aboutpad {
-            vertical-align: middle;
-            align-items: center;
-            display:inline-flex;
-   }
+
 @keyframes shine {
   0% {
     background-position-x: -500%;
