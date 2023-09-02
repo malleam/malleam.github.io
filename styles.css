@@ -19,6 +19,7 @@
             align-items: center;
             margin: auto;
             vertical-align: middle;
+            padding:10px;
         }
         .bodycontent {
             background-color: black;
@@ -90,9 +91,13 @@
             border: 1px solid #280d00;
         }
         input[type=button]:active
+
         .cat{
             display: inline;
-            width:80%;
+            padding: 50px;
+            margin-top: 10%;
+            width: 70%;
+            height: auto;
             align-content: center;
             vertical-align: middle;
         }
@@ -107,8 +112,11 @@
 
         .hide{
             position: relative;
-            display: block;
+            display: inline;
             overflow: visible;
+            padding-top: 50px;
+            width: 70%;
+            height: auto;
             text-align: right;
             margin-right: 50px;
             vertical-align: middle;
