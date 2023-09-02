@@ -211,6 +211,7 @@
   }
 }
 .donate {
+    display: inline-block;
     vertical-align: middle;
     padding-top: 10%;
     text-align: center;
