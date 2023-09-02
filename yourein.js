@@ -80,7 +80,4 @@ if ( username == "fuckface" && password == "weed420"){
 else{
 tryAgain();
 return false;
-}
-}
-
-
+}};

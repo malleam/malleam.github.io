@@ -1,15 +1,15 @@
 @media (max-width: 768px) {
     body {
       font-size: 14px;
-    }
-th, td, div, iframe, {
+    }}
+th, td, div, iframe {
             padding: 2px;
             font-size: large;
             font: weight 400;
             color: white;
             text-align:center;
         }
-        body {
+        html, body {
             background-color: black;
             color:rgb(255, 255, 255);
             font-size:large;
@@ -50,7 +50,11 @@ th, td, div, iframe, {
         .container {
             width:200px;
             visibility:inherit ;
-        }
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+          }
         .valid{
         color:rgb(0, 183, 137);
         }
@@ -78,7 +82,13 @@ th, td, div, iframe, {
         input[type=button]:hover{
         background: linear-gradient(#e96d00 5%, #712200 100%);
         border: 1px solid #280d00;
+        } 
+        input[type=button]:active{
+            background: linear-gradient(#00c368 5%, #a600c7 100%);;
+            outline: blue none 0px; 
+            border: 1px solid #280d00;
         }
+        input[type=button]:active
         .cat{
             display: inline;
             width:80%;
@@ -92,12 +102,11 @@ th, td, div, iframe, {
             margin: 0;
             text-align: center;
             align-items: center;   
-            vertical-align: middle;
           }
 
         .hide{
             position: relative;
-            display: grid;
+            display: block;
             overflow: visible;
             text-align: right;
             margin-right: 50px;
@@ -128,6 +137,12 @@ th, td, div, iframe, {
         #menu a:hover {
             text-decoration: wavy;
             color:#009572;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        #menu a:active {
+            text-decoration:line-through;
+            color:#0088bd;
             font-weight: 700;
             text-transform: uppercase;
         }
@@ -173,5 +188,24 @@ th, td, div, iframe, {
             font-size: 12px;
 
         }
+    
+        .btn-shine {
+            background: linear-gradient(90deg, #000, #fff, #000);
+            letter-spacing: 2px;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-repeat: no-repeat;
+            background-size: 80%;
+            animation: shine 5s linear infinite;
+            position: relative;
+}
 
-        
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
