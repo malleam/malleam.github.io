@@ -6,6 +6,7 @@
     
     <link rel="icon" href="https://fav.farm/😽" />
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="yourein.js"></script>
   </head>
   <body>
     <div id="menu">
@@ -19,32 +20,110 @@
     </div>
     
       <div class="donate" id="donate">
-          <font-color="white">
-            <table>
-              <tbody>
-                <tr>
-                  <td align="center">
-                    <b>cashapp</td><td> : </td></b></td>
-                <td> maechle</td></tr>
-                <br><br>
-                <tr>
-                  <td align="center">
-                    <b>venmo</td><td> : </b></td>
-                  <td> michaelealeal</td></tr>
+          
+                   
+               
+                  
+        <span class="text-container" id="venmo-text">
+          <span class="cat-emoji">😻</span><b>venmo</b><span class="cat-emoji">😻</span>
+        </span>
+
+                    <script>
+                        const venmoText = document.getElementById('venmo-text');
+                
+                        venmoText.addEventListener('click', () => {
+                            // Create a temporary textarea element to hold the text
+                            const textarea = document.createElement('textarea');
+                            textarea.value = 'michaelealeal';
+                            document.body.appendChild(textarea);
+                
+                            // Select and copy the text
+                            textarea.select();
+                            document.execCommand('copy');
+                
+                            // Remove the temporary textarea
+                            document.body.removeChild(textarea);
+                
+                            // Provide some feedback to the user
+                            alert('venmo username copied to clipboard: michaelealeal');
+                        });
+                    </script>
+                     <br><br>
+                     <span class="text-container" id="cashapp-text"><span class="cat-emoji">😻</span><b>cashapp</b><span class="cat-emoji">😻</span></span>
+
+                    <script>
+                        const cashappText = document.getElementById('cashapp-text');
+                
+                        cashappText.addEventListener('click', () => {
+                            // Create a temporary textarea element to hold the text
+                            const textarea = document.createElement('textarea');
+                            textarea.value = 'maechle';
+                            document.body.appendChild(textarea);
+                
+                            // Select and copy the text
+                            textarea.select();
+                            document.execCommand('copy');
+                
+                            // Remove the temporary textarea
+                            document.body.removeChild(textarea);
+                
+                            // Provide some feedback to the user
+                            alert('cashapp username copied to clipboard: maechle');
+                        });
+                    </script>
                   <br><br>
-                <tr>
-                  <td align="center">
-                    <b>paypal</td><td> : </b></td>
-                  <td> maeklyo</td></tr>
+                
+                    <span class="text-container" id="paypal-text"><span class="cat-emoji">😻</span><b>paypal</b><span class="cat-emoji">😻</span></span>
+
+                    <script>
+                        const paypalText = document.getElementById('paypal-text');
+                
+                        paypalText.addEventListener('click', () => {
+                            // Create a temporary textarea element to hold the text
+                            const textarea = document.createElement('textarea');
+                            textarea.value = 'maeklyo';
+                            document.body.appendChild(textarea);
+                
+                            // Select and copy the text
+                            textarea.select();
+                            document.execCommand('copy');
+                
+                            // Remove the temporary textarea
+                            document.body.removeChild(textarea);
+                
+                            // Provide some feedback to the user
+                            alert('paypal username copied to clipboard: maeklyo');
+                        });
+                    </script>
                 <br><br>
-                <tr>
-                  <td align="center">
-                    <span><b>bitcoin</span></td><td> : </b></td>
-                  <td> bc1q5z4nuzmym8su4s9lsypjwl7nw0zdzljt8s43m8</td>
-                </tr>
-              </tbody>
-            </table>
-          </font-color>
+              
+                    <span class="text-container" id="bitcoin-text"><span class="cat-emoji">😻</span><b>bitcoin</b><span class="cat-emoji">😻</span></span>
+
+                    <script>
+                        const bitcoinText = document.getElementById('bitcoin-text');
+                
+                        bitcoinText.addEventListener('click', () => {
+                            // Create a temporary textarea element to hold the text
+                            const textarea = document.createElement('textarea');
+                            textarea.value = 'bc1q5z4nuzmym8su4s9lsypjwl7nw0zdzljt8s43m8';
+                            document.body.appendChild(textarea);
+                
+                            // Select and copy the text
+                            textarea.select();
+                            document.execCommand('copy');
+                
+                            // Remove the temporary textarea
+                            document.body.removeChild(textarea);
+                
+                            // Provide some feedback to the user
+                            alert('Text copied to clipboard: bc1q5z4nuzmym8su4s9lsypjwl7nw0zdzljt8s43m8');
+                        });
+                    </script><br>
+                     <div class= "clicktocopy" id="clicktocopy">(click to copy)</div>
+      </div>
+      <br>
+     
+          
       </div>
 
   </body>

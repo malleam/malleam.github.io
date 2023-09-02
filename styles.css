@@ -213,9 +213,37 @@
 }
 .donate {
     vertical-align: middle;
-    padding-left: 30%;
-    text-align: left;
+    padding-top: 10%;
+    text-align: center;
     font-size: 18px;
-    text-decoration: line-through;
-    padding-left: "10%";
+    text-decoration: none;
+    padding-bottom: 20%;
+    
         }
+.donate span:hover {
+    font-size: 22px; /* Increase the font size on hover within span tags */
+    color:#009572;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+.clicktocopy {
+    padding: 35px;
+    font-size: 10px;
+}
+/* styles.css */
+.text-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cat-emoji {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text-container:hover .cat-emoji {
+    opacity: 1;
+    margin-left: 5px; /* Adjust the spacing between text and emoji */
+}
+
+

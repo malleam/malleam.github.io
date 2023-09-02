@@ -81,16 +81,10 @@ else{
 tryAgain();
 return false;
 }};
-const span = document.querySelector("span");
-
-span.onclick = function() {
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
   document.execCommand("copy");
+  $temp.remove();
 }
-
-span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", span.textContent);
-    console.log(event.clipboardData.getData("text"))
-  }
-});
