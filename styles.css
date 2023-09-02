@@ -3,12 +3,17 @@
       font-size: 14px;
     }}
         iframe {
-            padding: 2px;
+            border: white;
+            border-width: 1px;
             font-size: 18px;
             font: weight 400;
             color: white;
             text-align:center;
             vertical-align: middle;
+            background: #000000; 
+            background-color: black; 
+            min-width: 500px; 
+           
         }
         html, body {
             background-color: black;
@@ -94,12 +99,14 @@
 
         .cat{
             display: inline;
-            padding: 50px;
-            margin-top: 10%;
+            margin: 10px;
+            padding-block: 60px;
             width: 70%;
             height: auto;
             align-content: center;
             vertical-align: middle;
+
+    
         }
         .hidden{
             position: relative;
@@ -126,7 +133,7 @@
           #menu {
             background-color: #000000;
             color: #fff;
-            padding: 10px;
+            padding: 0px;
           }
         #menu ul {
             list-style: none;
@@ -262,3 +269,14 @@ img {
     height: auto;
   }
 
+.aboutpad {
+    font-size: 16px;
+    font-weight: lighter;
+}
+.aboutsubtext {
+    font-size: 12px;
+    font-weight: lighter;
+}
+.facebook {
+    padding-block: 60px;
+}
