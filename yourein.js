@@ -40,11 +40,11 @@ const pressed = [];
 
 function tryAgain() {
   var paragraph = document.getElementById("p");
-  alert(" error. ckeck your login info and/or try again later.");
+  alert(" error. fuck off, check your login info, and/or rinse and repeat.");
 };
 
 function addCat() { 
-  document.getElementById('cat').innerHTML = '<img width="600" src="01.jpg"><br><img width="600" src="02.jpg"><br><img width="600" src="03.jpg"><br><img width="600" src="04.jpg"><br><img width="600" src="05.jpg"><br><img width="600" src="06.jpg"><br><img width="600" src="07.jpg"><br><img width="600" src="08.jpg"><br>';
+  document.getElementById('cat').innerHTML = '<img width="600" src="/images/01.jpg"><br><img width="600" src="/images/02.jpg"><br><img width="600" src="/images/03.jpg"><br><img width="600" src="/images/04.jpg"><br><img width="600" src="/images/05.jpg"><br><img width="600" src="/images/06.jpg"><br><img width="600" src="/images/07.jpg"><br><img width="600" src="/images/08.jpg"><br>';
 
 }
 
@@ -56,7 +56,7 @@ function addFrame() {
             
             document.getElementById("hidden")
                 .innerHTML +=
-'<iframe style="background: #000000; background-color: black" width="300px" height="128px" src="hidden.html"></iframe>';
+'<iframe style="background: #000000; background-color: black" width="600px" height="120px" src="hidden.html"><br></iframe>';
 document.getElementById("hide").style.visibility = "hidden";
 document.getElementById("hide").style.display = "none";
             addCat();

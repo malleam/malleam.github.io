@@ -199,6 +199,7 @@ th, td, div, iframe {
             background-size: 80%;
             animation: shine 5s linear infinite;
             position: relative;
+            margin-top: 0;
 }
 
 @keyframes shine {
