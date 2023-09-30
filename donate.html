@@ -94,7 +94,30 @@
             });
         </script>
       <br><br>
+      <span class="text-container" id="chime-text"><span class="cat-emoji">😻</span><b>chime</b><span class="cat-emoji">😻</span></span>
+
+      <script>
+          const chimeText = document.getElementById('chime-text');
   
+          chimeText.addEventListener('click', () => {
+              // Create a temporary textarea element to hold the text
+              const textarea = document.createElement('textarea');
+              textarea.value = 'maechle';
+              document.body.appendChild(textarea);
+  
+              // Select and copy the text
+              textarea.select();
+              document.execCommand('copy');
+  
+              // Remove the temporary textarea
+              document.body.removeChild(textarea);
+  
+              // Provide some feedback to the user
+              alert('chime username copied to clipboard: maechle');
+          });
+      </script>
+    <br><br>
+
       <span class="text-container" id="bitcoin-text"><span class="cat-emoji">😻</span><b>bitcoin</b><span class="cat-emoji">😻</span></span>
 
         <script>
