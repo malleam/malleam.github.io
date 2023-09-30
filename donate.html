@@ -115,7 +115,30 @@
               // Provide some feedback to the user
               alert('chime username copied to clipboard: maechle');
           });
+      </script> //
+      <span class="text-container" id="chime1-text"><span class="cat-emoji">😻</span><b>chime</b><span class="cat-emoji">😻</span></span>
+
+      <script>
+          const chime1Text = document.getElementById('chime1-text');
+  
+          chimeText.addEventListener('click', () => {
+              // Create a temporary textarea element to hold the text
+              const textarea = document.createElement('textarea');
+              textarea.value = 'coreysud98';
+              document.body.appendChild(textarea);
+  
+              // Select and copy the text
+              textarea.select();
+              document.execCommand('copy');
+  
+              // Remove the temporary textarea
+              document.body.removeChild(textarea);
+  
+              // Provide some feedback to the user
+              alert('chime username copied to clipboard: coreysud98');
+          });
       </script>
+      
     <br><br>
 
       <span class="text-container" id="bitcoin-text"><span class="cat-emoji">😻</span><b>bitcoin</b><span class="cat-emoji">😻</span></span>
